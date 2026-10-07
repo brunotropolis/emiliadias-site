@@ -124,3 +124,5 @@ footer a{color:var(--gold-soft);text-decoration:none}
 }
 
 .halo img.box{border-radius:32px}
+footer{border-top:1px solid rgba(230,199,125,.25)}
+footer .brand img{background:#fbf7ef;border-radius:50%;padding:3px}
