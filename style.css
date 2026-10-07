@@ -60,7 +60,7 @@ section{padding:88px 0}
 .card{background:#fff;border-radius:var(--radius);padding:30px;box-shadow:0 1px 0 rgba(4,1,64,.04),0 18px 40px -26px rgba(4,1,64,.35)}
 .dark .card{background:rgba(255,255,255,.08);box-shadow:none;border:1px solid rgba(230,199,125,.3);color:#fff}
 .quote{font-family:var(--serif);font-size:1.18rem;font-style:italic;line-height:1.5;position:relative;padding-top:46px}
-.quote::before{content:"\201C";position:absolute;top:-16px;left:-4px;font-size:4rem;color:var(--gold);font-style:normal}
+.quote::before{content:"\201C";position:absolute;top:-4px;left:28px;font-size:4rem;color:var(--gold);font-style:normal}
 
 .checks{list-style:none;display:grid;gap:14px}
 .checks li{display:flex;gap:14px;align-items:flex-start}
