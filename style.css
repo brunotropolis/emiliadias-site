@@ -29,9 +29,9 @@ section{padding:88px 0}
 .brand small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;font-weight:700;margin-top:-2px}
 
 /* botões */
-.btn{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:var(--navy);text-decoration:none;font-weight:700;letter-spacing:.04em;padding:16px 30px;border-radius:999px;box-shadow:0 6px 16px -8px rgba(4,1,64,.35);transition:transform .2s,box-shadow .2s,background .2s}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:var(--navy);text-decoration:none;font-weight:700;letter-spacing:.02em;padding:16px 30px;justify-content:center;text-align:center;line-height:1.2;border-radius:999px;box-shadow:0 6px 16px -8px rgba(4,1,64,.35);transition:transform .2s,box-shadow .2s,background .2s}
 .btn:hover{transform:translateY(-2px);background:#d39c22;box-shadow:0 10px 22px -8px rgba(4,1,64,.4)}
-.btn svg{width:20px;height:20px;fill:currentColor}
+.btn svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
 .btn.sm{padding:10px 20px;font-size:.88rem}
 .btn.ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy);box-shadow:none}
 .btn.ghost:hover{background:var(--navy);color:#fff}
@@ -119,10 +119,12 @@ footer a{color:var(--gold-soft);text-decoration:none}
   .g2,.g3{grid-template-columns:1fr}
   .benefit{grid-template-columns:1fr;text-align:center;gap:16px}
   .benefit img{width:170px;margin:0 auto}
-  .top .btn.sm{display:none}
+  .btn{width:100%;max-width:340px;padding:15px 20px;font-size:15.5px;letter-spacing:0;white-space:nowrap}
+  .center .btn,.center.cta-row .btn{margin:0 auto}
   .media img{max-width:300px}
 }
 
 .halo img.box{border-radius:32px}
 footer{border-top:1px solid rgba(230,199,125,.25)}
 footer .brand img{background:#fbf7ef;border-radius:50%;padding:3px}
+@media (max-width:359px){.btn{white-space:normal;font-size:14.5px;padding:14px 16px;border-radius:28px}}
